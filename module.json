@@ -1,0 +1,48 @@
+{
+  "id": "toa-af67-sky-tower-of-belk-xos",
+  "title": "ToA AF67 - Sky Tower of Belk Xos",
+  "version": "1.0.0",
+  "manifest": "https://github.com/rgwynnjr/toa-af67-sky-tower-of-belk-xos/releases/latest/download/module.json",
+  "download": "https://github.com/rgwynnjr/toa-af67-sky-tower-of-belk-xos/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Steve Grod - Game and Adventure Designer",
+      "flags": {}
+    },
+    {
+      "name": "Ray Gwynn - Foundry Adventure Module Creator",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "sky-tower-of-belk-xos",
+      "label": "Sky Tower of Belk Xos",
+      "path": "packs/sky-tower-of-belk-xos",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "talesofargosa",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "talesofargosa",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
